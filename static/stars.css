@@ -1,24 +1,31 @@
 /*==================================
 General CSS
 ==================================*/
+
 body,
 html {
-  font-family: 'Raleway', sans-serif;
-  scroll-behavior: smooth;
-  overflow-x: hidden;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Playfair Display', serif;
+    scroll-behavior: smooth;
+
 }
 
-#particles-js{
-  position:fixed;
-  width: 100%;
-  height: 100%;
-  background: mix(#424100, #002025, 70%);
-  background-image: -moz-linear-gradient(45deg, #474d00 2%, #002025 100%);
-  background-image: -webkit-linear-gradient(45deg, #3f3251 2%, #002025 100%);
-  background-image: linear-gradient(45deg, #272727 2%, #1f1f1f 100%);
+* {
+    box-sizing: border-box;
 }
 
-/*==================================
-Cover 
-==================================*/
-  
+a {
+    text-decoration: none;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: mix(#0f0f0f, #002025, 70%);
+    background-image: -moz-linear-gradient(45deg, #474d00 2%, #002025 100%);
+    background-image: -webkit-linear-gradient(45deg, #3f3251 2%, #002025 100%);
+    background-image: linear-gradient(45deg, #0f0f0f 2%, #1f1f1f 100%);
+}

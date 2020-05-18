@@ -1,36 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Bootstrap-->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <!-- MdB CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet" />
+
     <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
     <!-- Google Fonts -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
     <!-- Bootstrap core CSS -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+        rel="stylesheet" />
     <!-- Material Design Bootstrap -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet" />
     <!--Aos-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
@@ -39,192 +27,472 @@
     <link rel="stylesheet" href="static/main.css" />
 
     <title>MyPortfolio</title>
-  </head>
-  <body>
+</head>
+
+<body>
+    <!-- Particle js -->
     <div id="particles-js"></div>
+    <!--Landing page -->
     <header class="main_h">
-      <div class="row">
-        <a class="logo" href="#">D/D</a>
+        <div class="row">
+            <a class="logo" href="#">D/D</a>
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
 
-        <div class="mobile-toggle">
-          <span></span>
-          <span></span>
-          <span></span>
+            <nav>
+                <ul>
+                    <li><a href=".sec01">Section 01</a></li>
+                    <li><a href=".sec02">Section 02</a></li>
+                    <li><a href=".sec03">Section 03</a></li>
+                    <li><a href=".sec04">Section 04</a></li>
+                </ul>
+            </nav>
         </div>
-
-        <nav>
-          <ul>
-            <li><a href=".sec01">Section 01</a></li>
-            <li><a href=".sec02">Section 02</a></li>
-            <li><a href=".sec03">Section 03</a></li>
-            <li><a href=".sec04">Section 04</a></li>
-          </ul>
-        </nav>
-      </div>
-      <!-- / row -->
     </header>
 
     <div class="hero">
-      <h1><span>I'm David</span><br />Wellcome</h1>
+        <h1><span>I'm David</span><br />Wellcome</h1>
+    </div>
+<!-- About me -->
+    <div class="wrapper-about">
+        <div class="container">
+            <div class="about">
+                <h1 class="title">
+                    About me!
+                </h1>
+            </div>
+        </div>
+        <div class="container my-5 z-depth-1">
+            <section class="white-text">
+                <div class="row pr-lg-5">
+                    <div class="col-md-7 mb-4">
+                    </div>
+                    <div class="col-md-5 d-flex align-items-center">
+                        <div>
+                            <h3 class="font-weight-bold mb-4">I am David</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe a, ipsum minus ratione
+                                voluptates id, expedita omnis sunt nemo fugiat quos, sapiente itaque quae accusantium
+                                iure libero consectetur reiciendis dolorum.
+                            </p>
+                            <button type="button" class="btn btn-dark btn-rounded mx-0">Download</button>
 
-      <div class="mouse">
-        <span></span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </div>
+<!-- Projects -->
+<div class="container my-5">
+    <section>
+          <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                      <div class="modal-body p-0">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                          
+                          <!-- Grid row -->
+                          <div class="row">
+                          
+                              <!-- Grid column -->
+                              <div class="col-md-6 py-5 pl-5">
+                                  
+                                  <h5 class="font-weight-normal mb-3">Paper cup mockup</h5>
+  
+                                  <p class="text-muted">Key letters, explain which writing we he carpeting or fame, the itch expand medical amped through constructing time. And scarfs, gain, get showed accounts decades.</p>
+  
+                                  <ul class="list-unstyled font-small mt-5">
+                                      <li>
+                                          <p class="text-uppercase mb-2"><strong>Client</strong></p>
+                                          <p class="text-muted mb-4">Envato Inc.</p>
+                                      </li>
+  
+                                      <li>
+                                          <p class="text-uppercase mb-2"><strong>Date</strong></p>
+                                          <p class="text-muted mb-4">June 27, 2019</p>
+                                      </li>
+  
+                                      <li>
+                                          <p class="text-uppercase mb-2"><strong>Skills</strong></p>
+                                          <p class="text-muted mb-4">Design, HTML, CSS, Javascript</p>
+                                      </li>
+  
+                                      <li>
+                                          <p class="text-uppercase mb-2"><strong>Address</strong></p>
+                                          <a href="https://mdbootstrap.com/docs/jquery/design-blocks/">MDBootstrap</a>
+                                      </li>
+                                  </ul>
+                                  
+                              </div>
+                              <!-- Grid column -->
+                          
+                              <!-- Grid column -->
+                              <div class="col-md-6">
+                                  
+                                  <div class="view rounded-right">
+                                      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/5.jpg" alt="Sample image">
+                                  </div>
+                                  
+                              </div>
+                              <!-- Grid column -->
+                          
+                          </div>
+                          <!-- Grid row -->
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="container">
+            <div class="about">
+                <h1 class="title">
+                   My Projects
+                </h1>
+            </div>
+        </div>
+      <div class="tab-content mb-5">
+  
+        <!--Panel 1-->
+        <div class="tab-pane fade show in active" id="panel31" role="tabpanel">
+  
+          <!-- Grid row -->
+          <div class="row">
+  
+            <!-- Grid column -->
+            <div class="col-md-12 col-lg-4">
+  
+              <!-- Card -->
+              <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+  
+                <!-- Card image -->
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img3.jpg" alt="Card image cap">
+  
+                <!-- Card content -->
+                <div class="card-body">
+  
+                  <h5 class="my-3">Phone Bag</h5>
+                  <p class="card-text text-uppercase mb-3">Bag, Box</p>
+  
+                </div>
+  
+              </a>
+              <!-- Card -->
+  
+              <!-- Card -->
+              <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+  
+                <!-- Card image -->
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img9.jpg" alt="Card image cap">
+  
+                <!-- Card content -->
+                <div class="card-body">
+  
+                  <h5 class="my-3">Paper Bag</h5>
+                  <p class="card-text text-uppercase mb-3">Bag</p>
+  
+                </div>
+  
+              </a>
+              <!-- Card -->
+  
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-4">
+  
+              <!-- Card -->
+              <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+  
+                <!-- Card image -->
+                <img class="card-img-top" src=" https://mdbootstrap.com/img/Photos/Others/img4.jpg" alt="Card image cap">
+  
+                <!-- Card content -->
+                <div class="card-body">
+  
+                  <h5 class="my-3">Book</h5>
+                  <p class="card-text text-uppercase mb-3">Book</p>
+  
+                </div>
+  
+              </a>
+              <!-- Card -->
+  
+              <!-- Card -->
+              <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+  
+                <!-- Card image -->
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img5.jpg" alt="Card image cap">
+  
+                <!-- Card content -->
+                <div class="card-body">
+  
+                  <h5 class="my-3">Notes</h5>
+                  <p class="card-text text-uppercase mb-3">Note</p>
+  
+                </div>
+  
+              </a>
+              <!-- Card -->
+  
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-4">
+  
+              <!-- Card -->
+              <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+  
+                <!-- Card image -->
+                <img class="card-img-top" src=" https://mdbootstrap.com/img/Photos/Others/img10.jpg" alt="Card image cap">
+  
+                <!-- Card content -->
+                <div class="card-body">
+  
+                  <h5 class="my-3">T-shirt</h5>
+                  <p class="card-text text-uppercase mb-3">Box</p>
+  
+                </div>
+  
+              </a>
+              <!-- Card -->
+  
+              <!-- Card -->
+              <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+  
+                <!-- Card image -->
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img8.jpg" alt="Card image cap">
+  
+                <!-- Card content -->
+                <div class="card-body">
+  
+                  <h5 class="my-3">Magazine</h5>
+                  <p class="card-text text-uppercase mb-3">Book</p>
+  
+                </div>
+  
+              </a>
+              <!-- Card -->
+  
+            </div>
+            <!-- Grid column -->
+  
+          </div>
+          <!-- Grid row -->
+  
+        </div>
+        <!--Panel 1-->
+  
+        <!--Panel 2-->
+        <div class="tab-pane fade" id="panel32" role="tabpanel">
+  
+          <!-- Grid row -->
+          <div class="row">
+  
+            <!-- Grid column -->
+            <div class="col-md-12 col-lg-4">
+  
+              <!-- Card -->
+              <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+  
+                <!-- Card image -->
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img9.jpg" alt="Card image cap">
+  
+                <!-- Card content -->
+                <div class="card-body">
+  
+                  <h5 class="my-3">Paper Bag</h5>
+                  <p class="card-text text-uppercase mb-3">Bag</p>
+  
+                </div>
+  
+              </a>
+              <!-- Card -->
+  
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-4">
+  
+              <!-- Card -->
+              <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+  
+                <!-- Card image -->
+                <img class="card-img-top" src=" https://mdbootstrap.com/img/Photos/Others/img4.jpg" alt="Card image cap">
+  
+                <!-- Card content -->
+                <div class="card-body">
+  
+                  <h5 class="my-3">Book</h5>
+                  <p class="card-text text-uppercase mb-3">Book</p>
+  
+                </div>
+  
+              </a>
+              <!-- Card -->
+  
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-4">
+  
+              <!-- Card -->
+              <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+  
+                <!-- Card image -->
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img8.jpg" alt="Card image cap">
+  
+                <!-- Card content -->
+                <div class="card-body">
+  
+                  <h5 class="my-3">Magazine</h5>
+                  <p class="card-text text-uppercase mb-3">Book</p>
+  
+                </div>
+  
+              </a>
+              <!-- Card -->
+  
+            </div>
+            <!-- Grid column -->
+  
+          </div>
+          <!-- Grid row -->
+  
+        </div>
+        <!--Panel 2-->
+  
+        <!--Panel 3-->
+        <div class="tab-pane fade" id="panel33" role="tabpanel">
+  
+          <!-- Grid row -->
+          <div class="row">
+  
+            <!-- Grid column -->
+            <div class="col-md-12 col-lg-4">
+  
+              <!-- Card -->
+              <div class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+  
+                <!-- Card image -->
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img3.jpg" alt="Card image cap">
+  
+                <!-- Card content -->
+                <div class="card-body">
+  
+                  <h5 class="my-3">Phone Bag</h5>
+                  <p class="card-text text-uppercase mb-3">Bag, Box</p>
+  
+                </div>
+  
+              </div>
+              <!-- Card -->
+  
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-4">
+  
+              <!-- Card -->
+              <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+  
+                <!-- Card image -->
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img5.jpg" alt="Card image cap">
+  
+                <!-- Card content -->
+                <div class="card-body">
+  
+                  <h5 class="my-3">Notes</h5>
+                  <p class="card-text text-uppercase mb-3">Note</p>
+  
+                </div>
+  
+              </a>
+              <!-- Card -->
+  
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-4">
+  
+              <!-- Card -->
+              <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+  
+                <!-- Card image -->
+                <img class="card-img-top" src=" https://mdbootstrap.com/img/Photos/Others/img10.jpg" alt="Card image cap">
+  
+                <!-- Card content -->
+                <div class="card-body">
+  
+                  <h5 class="my-3">T-shirt</h5>
+                  <p class="card-text text-uppercase mb-3">Box</p>
+  
+                </div>
+  
+              </a>
+              <!-- Card -->
+  
+            </div>
+            <!-- Grid column -->
+  
+          </div>
+          <!-- Grid row -->
+  
+        </div>
+        <!--Panel 3-->
+  
       </div>
-    </div>
+      <!--Tab panels-->
+  
+    </section>
+    <!-- Section -->
+  
+  </div>
 
-    <div class="row content">
-      <h1 class="sec01">Section 01</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum,
-        recusandae, at, labore velit eligendi amet nobis repellat natus sequi
-        sint consectetur excepturi doloribus vero provident consequuntur
-        accusamus quisquam nesciunt cupiditate soluta alias illo et deleniti
-        voluptates facilis repudiandae similique dolore quaerat architecto
-        perspiciatis officiis dolor ullam expedita suscipit neque minima rem
-        praesentium inventore ab officia quos dignissimos esse quam placeat iste
-        porro eius! Minus, aspernatur nesciunt consectetur. Sit, eius, itaque,
-        porro, beatae impedit officia tenetur reiciendis autem vitae a quae
-        ipsam repudiandae odio dolorum quaerat asperiores possimus corporis
-        optio animi quisquam laboriosam nihil quam voluptatum quidem veritatis
-        iste culpa iure modi perspiciatis recusandae ipsa libero officiis
-        aliquam doloremque similique id quasi atque distinctio enim sapiente
-        ratione in quia eum perferendis earum blanditiis. Nobis, architecto,
-        veniam molestias minus iste necessitatibus est ab in earum ratione
-        eveniet soluta molestiae sed illo nostrum nemo debitis. Minus, quod
-        totam aliquam ea asperiores fugit quaerat excepturi dolores ratione
-        numquam consequatur id unde alias provident vero incidunt exercitationem
-        similique consequuntur hic possimus? Fuga, eveniet quaerat inventore
-        corporis laborum eligendi enim soluta obcaecati aliquid veritatis
-        provident amet laudantium est quisquam dolore exercitationem modi?
-        Distinctio, pariatur, ab velit praesentium vitae quidem consequatur
-        deleniti recusandae odit officiis. Quidem, cupiditate.
-      </p>
-      <h1 class="sec02">Section 02</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum,
-        recusandae, at, labore velit eligendi amet nobis repellat natus sequi
-        sint consectetur excepturi doloribus vero provident consequuntur
-        accusamus quisquam nesciunt cupiditate soluta alias illo et deleniti
-        voluptates facilis repudiandae similique dolore quaerat architecto
-        perspiciatis officiis dolor ullam expedita suscipit neque minima rem
-        praesentium inventore ab officia quos dignissimos esse quam placeat iste
-        porro eius! Minus, aspernatur nesciunt consectetur. Sit, eius, itaque,
-        porro, beatae impedit officia tenetur reiciendis autem vitae a quae
-        ipsam repudiandae odio dolorum quaerat asperiores possimus corporis
-        optio animi quisquam laboriosam nihil quam voluptatum quidem veritatis
-        iste culpa iure modi perspiciatis recusandae ipsa libero officiis
-        aliquam doloremque similique id quasi atque distinctio enim sapiente
-        ratione in quia eum perferendis earum blanditiis. Nobis, architecto,
-        veniam molestias minus iste necessitatibus est ab in earum ratione
-        eveniet soluta molestiae sed illo nostrum nemo debitis. Minus, quod
-        totam aliquam ea asperiores fugit quaerat excepturi dolores ratione
-        numquam consequatur id unde alias provident vero incidunt exercitationem
-        similique consequuntur hic possimus? Fuga, eveniet quaerat inventore
-        corporis laborum eligendi enim soluta obcaecati aliquid veritatis
-        provident amet laudantium est quisquam dolore exercitationem modi?
-        Distinctio, pariatur, ab velit praesentium vitae quidem consequatur
-        deleniti recusandae odit officiis. Quidem, cupiditate.
-      </p>
-      <h1 class="sec03">Section 03</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum,
-        recusandae, at, labore velit eligendi amet nobis repellat natus sequi
-        sint consectetur excepturi doloribus vero provident consequuntur
-        accusamus quisquam nesciunt cupiditate soluta alias illo et deleniti
-        voluptates facilis repudiandae similique dolore quaerat architecto
-        perspiciatis officiis dolor ullam expedita suscipit neque minima rem
-        praesentium inventore ab officia quos dignissimos esse quam placeat iste
-        porro eius! Minus, aspernatur nesciunt consectetur. Sit, eius, itaque,
-        porro, beatae impedit officia tenetur reiciendis autem vitae a quae
-        ipsam repudiandae odio dolorum quaerat asperiores possimus corporis
-        optio animi quisquam laboriosam nihil quam voluptatum quidem veritatis
-        iste culpa iure modi perspiciatis recusandae ipsa libero officiis
-        aliquam doloremque similique id quasi atque distinctio enim sapiente
-        ratione in quia eum perferendis earum blanditiis. Nobis, architecto,
-        veniam molestias minus iste necessitatibus est ab in earum ratione
-        eveniet soluta molestiae sed illo nostrum nemo debitis. Minus, quod
-        totam aliquam ea asperiores fugit quaerat excepturi dolores ratione
-        numquam consequatur id unde alias provident vero incidunt exercitationem
-        similique consequuntur hic possimus? Fuga, eveniet quaerat inventore
-        corporis laborum eligendi enim soluta obcaecati aliquid veritatis
-        provident amet laudantium est quisquam dolore exercitationem modi?
-        Distinctio, pariatur, ab velit praesentium vitae quidem consequatur
-        deleniti recusandae odit officiis. Quidem, cupiditate.
-      </p>
-      <h1 class="sec04">Section 04</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum,
-        recusandae, at, labore velit eligendi amet nobis repellat natus sequi
-        sint consectetur excepturi doloribus vero provident consequuntur
-        accusamus quisquam nesciunt cupiditate soluta alias illo et deleniti
-        voluptates facilis repudiandae similique dolore quaerat architecto
-        perspiciatis officiis dolor ullam expedita suscipit neque minima rem
-        praesentium inventore ab officia quos dignissimos esse quam placeat iste
-        porro eius! Minus, aspernatur nesciunt consectetur. Sit, eius, itaque,
-        porro, beatae impedit officia tenetur reiciendis autem vitae a quae
-        ipsam repudiandae odio dolorum quaerat asperiores possimus corporis
-        optio animi quisquam laboriosam nihil quam voluptatum quidem veritatis
-        iste culpa iure modi perspiciatis recusandae ipsa libero officiis
-        aliquam doloremque similique id quasi atque distinctio enim sapiente
-        ratione in quia eum perferendis earum blanditiis. Nobis, architecto,
-        veniam molestias minus iste necessitatibus est ab in earum ratione
-        eveniet soluta molestiae sed illo nostrum nemo debitis. Minus, quod
-        totam aliquam ea asperiores fugit quaerat excepturi dolores ratione
-        numquam consequatur id unde alias provident vero incidunt exercitationem
-        similique consequuntur hic possimus? Fuga, eveniet quaerat inventore
-        corporis laborum eligendi enim soluta obcaecati aliquid veritatis
-        provident amet laudantium est quisquam dolore exercitationem modi?
-        Distinctio, pariatur, ab velit praesentium vitae quidem consequatur
-        deleniti recusandae odit officiis. Quidem, cupiditate.
-      </p>
-    </div>
-
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 
     <!-- MDB Bootstrap-->
     <!-- JQuery -->
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
-    ></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
-    ></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+    </script>
     <!-- Bootstrap core JavaScript -->
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"
-    ></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js"
-    ></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js">
+    </script>
     <!-- ParticleJs-->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
     <!-- AOS-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
     <script type="text/javascript" src="static/js/particles.js"></script>
     <script type="text/javascript" src="static/js/main.js"></script>
-  </body>
+</body>
+
 </html>
